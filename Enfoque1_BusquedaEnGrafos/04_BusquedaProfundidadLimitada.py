@@ -18,7 +18,7 @@ graph = {
     'F': []
 }
 print("Búsqueda en Profundidad Limitada:")
-dls(graph, 'A', 2)
+dls(graph, 'A', 1)
 
 #Aqui, se coloca un límite numerico para que la busqueda se detenga funcionando de la siguiente manera:
 #1: Busca en el primer nivel, 2: Busca en el primer nivel y en sus hijos (por ejemplo, se busca en A y luego, dentro de C y B)
